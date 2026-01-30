@@ -54,7 +54,7 @@ export default function App() {
               <img
                 src="/cebu-destinations.png"
                 alt="Cebu destinations"
-                className="w-[500px] h-[420px] object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
