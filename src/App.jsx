@@ -17,10 +17,10 @@ export default function App() {
         <div
           className="
             text-4xl md:text-6xl
-            font-black
+            font-yellow-500
             tracking-tight
             leading-none
-            text-yellow-500
+            text-black
             drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]
           "
         >
