@@ -32,7 +32,7 @@ export default function App() {
     {/* CTA – GREEN, CENTERED */}
     <div className="relative flex items-center">
       {/* Pulsing Ring */}
-      <span className="absolute inset-0 rounded-full bg-green-200 opacity-50 animate-ping"></span>
+      <span className="absolute inset-0 rounded-full bg-red-200 opacity-75 animate-ping"></span>
 
       {/* Button */}
      <a
@@ -51,7 +51,7 @@ export default function App() {
     leading-none
 
     /* 👇 COLOR ONLY (GREEN) */
-    bg-green-600 text-white
+    bg-green-600 text-black
 
     shadow-sm hover:shadow-md transition
   "
