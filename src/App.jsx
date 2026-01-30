@@ -8,17 +8,25 @@ export default function App() {
       <div className="w-[80%] bg-stone-50 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] border border-stone-200">
 
         {/* Header */}
-        <header className="border-b border-stone-200">
+       <header className="border-b border-stone-200">
   <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center">
-    
-    {/* BRAND AREA – OCCUPIES YELLOW ZONE */}
-    <div className="flex-1 flex justify-center">
-      <h1 className="text-xl font-extrabold tracking-wide text-center">
-        GO CEBU CAR RENTAL & TOURS
-      </h1>
+
+    {/* BRAND ZONE */}
+    <div className="flex-1">
+      <div className="max-w-[720px] mx-auto text-center">
+        
+        <div className="text-2xl md:text-3xl font-black tracking-tight leading-none">
+          GO CEBU
+        </div>
+
+        <div className="mt-1 text-xs md:text-sm tracking-widest text-gray-500 uppercase">
+          Car Rental & Tours
+        </div>
+
+      </div>
     </div>
 
-    {/* CTA – PUSHED TO FAR RIGHT */}
+    {/* CTA */}
     <div className="ml-auto">
       <a
         href="https://wa.me/639991721099"
@@ -32,6 +40,7 @@ export default function App() {
 
   </div>
 </header>
+
 
         {/* Hero */}
         <main className="w-full">
