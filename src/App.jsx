@@ -27,7 +27,7 @@ export default function App() {
     {/* CTA */}
     <div class="relative flex items-center justify-center w-fit mx-auto">
   <!-- 1. The Pulsing Ring (Behind) -->
-  <span class="absolute inline-flex h-[80%] w-[80%] animate-ping rounded-full bg-green-500 opacity-75"></span>
+  <span class="absolute inline-flex h-[80%] w-[80%] animate-ping rounded-full bg-green-500 opacity-50"></span>
 
   <!-- 2. The Main Button -->
   <a
@@ -36,7 +36,7 @@ export default function App() {
     rel="noreferrer"
     className="
       /* Layout & Shape */
-      relative flex items-center justify-center rounded-full text-center
+      relative flex items-even justify-even rounded-full text-even
       aspect-square shadow-lg hover:shadow-xl transition-all z-10
       
       /* Responsive Dimensions (Button grows/shrinks with browser) */
