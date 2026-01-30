@@ -31,7 +31,7 @@ export default function App() {
   target="_blank"
   rel="noreferrer"
   className="
-    inline-block flex items-center justify-center
+    inline-block flex items-around justify-around
     w-[20vw] h-[20vw] min-w-[120px] min-h-[120px] /* Responsive circle size */
     rounded-full text-center
     bg-green-600 text-black font-bold shadow-sm hover:shadow-md transition
