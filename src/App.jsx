@@ -25,33 +25,37 @@ export default function App() {
     </div>
 
     {/* CTA */}
-  <div class="relative flex items-center justify-center w-fit mx-auto">
-  <!-- 1. The Pulsing Ring (Behind) -->
-  <span class="absolute inline-flex h-[80%] w-[80%] animate-ping rounded-full bg-green-500 opacity-75"></span>
+<div class="relative flex items-center justify-center mx-auto w-fit">
+  <!-- Pulsing Ring -->
+  <span class="absolute inset-0 rounded-full bg-green-500 opacity-75 animate-ping"></span>
 
-  <!-- 2. The Main Button -->
+  <!-- Circular Button -->
   <a
     href="https://wa.me"
     target="_blank"
     rel="noreferrer"
-    className="
-      /* Layout & Shape */
-      relative flex items-center justify-center rounded-full text-center
-      aspect-square shadow-lg hover:shadow-xl transition-all z-10
-      
-      /* Responsive Dimensions (Button grows/shrinks with browser) */
-      w-[clamp(120px,20vw,240px)] h-[clamp(120px,20vw,240px)]
-      
-      /* Visuals & Typography */
-      bg-green-600 text-black font-bold
-      text-[clamp(0.85rem,2vw,1.4rem)] 
-      leading-tight p-5
+    class="
+      relative z-10
+      flex items-center justify-center
+      rounded-full aspect-square
+      bg-green-600 text-black font-bold text-center
+      shadow-lg hover:shadow-xl transition-all
+
+      /* Circle size */
+      w-[clamp(140px,22vw,260px)]
+
+      /* Text behavior */
+      text-[clamp(0.9rem,2.2vw,1.5rem)]
+      leading-snug
+      px-[15%]
+
       break-words text-balance
     "
   >
-    Chat on WhatsApp
+    Chat on<br />WhatsApp
   </a>
 </div>
+
   </div>
 </header>
 
