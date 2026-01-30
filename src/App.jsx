@@ -15,7 +15,7 @@ export default function App() {
     <div className="flex-1">
       <div className="max-w-[920px] mx-auto text-around">
         
-        <div className="text-4xl md:text-6xl font-yellow-400 tracking-tight leading-none text-black 
+        <div className="text-4xl md:text-6xl font-yellow-500 tracking-tight leading-none text-black 
             drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">
   Go Cebu Car Rental & Tours
 </div>
@@ -34,7 +34,7 @@ export default function App() {
     inline-flex items-center justify-center
     px-6 py-3
     rounded-full
-    bg-green-600 text-white
+    bg-green-600 text-black
     font-semibold
     leading-none
     shadow-sm hover:shadow-md transition
