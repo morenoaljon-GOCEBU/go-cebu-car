@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 flex items-center justify-evenly py-[15vh]">
+    <div className="min-h-screen bg-white text-gray-900 flex items-center justify-around py-[15vh]">
       
       {/* LUXURY EMBOSSED BOX */}
-      <div className="w-[90%] bg-stone-50 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] border border-stone-200">
+      <div className="w-[80%] bg-stone-50 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] border border-stone-200">
 
         {/* Header */}
         <header className="border-b border-stone-200">
-          <div className="max-w-[1400px] mx-auto px-[20%] py-4 flex items-center justify-between">
+          <div className="max-w-[1400px] mx-auto px-[20%] py-4 flex items-center justify-around">
             <h1 className="text-xl font-extrabold tracking-wide">GO CEBU  CAR RENTAL & TOURS</h1>
             <a
               href="https://wa.me/639991721099"
