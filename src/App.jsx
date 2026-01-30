@@ -9,7 +9,7 @@ export default function App() {
 
         {/* Header */}
         <header className="border-b border-stone-200">
-          <div className="max-w-[1400px] mx-auto px-[20%] py-4 flex items-even justify-around">
+          <div className="max-w-[1400px] mx-auto px-[20%] py-4 flex items-left justify-around">
             <h1 className="text-xl font-extrabold tracking-wide">GO CEBU  CAR RENTAL & TOURS</h1>
             <a
               href="https://wa.me/639991721099"
