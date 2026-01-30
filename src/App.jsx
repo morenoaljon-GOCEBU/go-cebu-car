@@ -23,7 +23,7 @@ export default function App() {
     </div>
 
     {/* CTA */}
-    <div className="ml-auto pl-12 flex items-center justify-around">
+    <div className="pl-12 flex items-center justify-around">
       <a
         href="https://wa.me/639991721099"
         target="_blank"
