@@ -44,7 +44,7 @@ export default function App() {
     inline-flex items-center justify-center
 
     /* 👇 COPIED SIZE + FONT FROM YELLOW BUTTON */
-    px-8 py-4
+    px-10 py-5
     rounded-full
     font-bold
     text-base
@@ -81,10 +81,9 @@ export default function App() {
               </p>
 
               <div className="mt-8">
-                 {/* Pulsing Ring */}
-      <span className="absolute inset-0 rounded-full bg-yellow-200 opacity-50 animate-ping"></span>
-
-      {/* Button */}
+                 {/* Pulsing Ring 
+    <span className="absolute inset-0 rounded-full bg-yellow-200 opacity-50 animate-ping"></span>
+                 */}
                 <a
                   href="https://wa.me/639991721099"
                   target="_blank"
