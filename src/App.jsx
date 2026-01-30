@@ -25,34 +25,16 @@ export default function App() {
     </div>
 
     {/* CTA */}
-   <div className="max-w-[1400px] mx-auto px-[10%] py-20 grid md:grid-cols-2 gap-12 items-center">
-  <!-- 1. The Pulsing Ring (Behind) -->
-  <span class="absolute inline-flex h-[80%] w-[80%] animate-ping rounded-full bg-green-500 opacity-75"></span>
-
-  <!-- 2. The Main Button -->
+   <div className="mt-8">
   <a
     href="https://wa.me"
     target="_blank"
     rel="noreferrer"
-    className="
-      /* Layout & Shape */
-      relative flex items-center justify-center rounded-full text-center
-      aspect-square shadow-lg hover:shadow-xl transition-all z-10
-      
-      /* Responsive Dimensions (Button grows/shrinks with browser) */
-      w-[clamp(120px,20vw,240px)] h-[clamp(120px,20vw,240px)]
-      
-      /* Visuals & Typography */
-      bg-green-600 text-black font-bold
-      text-[clamp(0.85rem,2vw,1.4rem)] 
-      leading-tight p-5
-      break-words text-balance
-    "
+    className="inline-block px-8 py-4 rounded-full bg-yellow-400 text-black font-bold shadow-md hover:shadow-lg hover:scale-105 transition"
   >
     Chat on WhatsApp
   </a>
 </div>
-
   </div>
 </header>
 
