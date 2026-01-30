@@ -9,45 +9,50 @@ export default function App() {
 
         {/* Header */}
        <header className="border-b border-stone-200">
-  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-around">
+  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center justify-between">
 
-    {/* BRAND ZONE */}
-    <div className="flex-1">
-      <div className="max-w-[920px] mx-auto text-around">
-        
-        <div className="text-4xl md:text-6xl font-yellow-500 tracking-tight leading-none text-black 
-            drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">
-  Go Cebu Car Rental & Tours
-</div>
-
-
+    {/* BRAND ZONE (CENTERED) */}
+    <div className="flex-1 flex justify-center">
+      <div className="text-center">
+        <div
+          className="
+            text-4xl md:text-6xl
+            font-black
+            tracking-tight
+            leading-none
+            text-yellow-500
+            drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]
+          "
+        >
+          Go Cebu Car Rental & Tours
+        </div>
       </div>
     </div>
 
-    {/* CTA */}
-<div class="relative flex items-middle justify-around mx-auto w-fit">
-  <!-- Pulsing Ring -->
-  <span class="absolute inset-0 rounded-full bg-green-500 opacity-75 animate-ping"></span>
+    {/* CTA – GREEN, CENTERED */}
+    <div className="relative flex items-center">
+      {/* Pulsing Ring */}
+      <span className="absolute inset-0 rounded-full bg-green-500 opacity-60 animate-ping"></span>
 
-  <!-- Circular Button -->
-  <a
-<a
-  href="https://wa.me/639991721099"
-  target="_blank"
-  rel="noreferrer"
-  className="
-    inline-flex items-middle justify-around
-    px-6 py-3
-    rounded-full
-    bg-green-600 text-white
-    font-semibold
-    leading-none
-    shadow-sm hover:shadow-md transition
-  "
->
-  Chat on WhatsApp
-</a>
-</div>
+      {/* Button */}
+      <a
+        href="https://wa.me/639991721099"
+        target="_blank"
+        rel="noreferrer"
+        className="
+          relative z-10
+          inline-flex items-center justify-center
+          px-6 py-3
+          rounded-full
+          bg-green-600 text-white
+          font-semibold
+          leading-none
+          shadow-sm hover:shadow-md transition
+        "
+      >
+        Chat on WhatsApp
+      </a>
+    </div>
 
   </div>
 </header>
