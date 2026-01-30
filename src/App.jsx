@@ -31,29 +31,22 @@ export default function App() {
 
   <!-- Circular Button -->
   <a
-    href="https://wa.me"
-    target="_blank"
-    rel="noreferrer"
-    class="
-      relative z-10
-      flex items-center justify-center
-      rounded-full aspect-square
-      bg-green-600 text-black font-bold text-center
-      shadow-lg hover:shadow-xl transition-all
-
-      /* Circle size */
-      w-[clamp(140px,22vw,260px)]
-
-      /* Text behavior */
-      text-[clamp(0.9rem,2.2vw,1.5rem)]
-      leading-snug
-      px-[15%]
-
-      break-words text-balance
-    "
-  >
-    Chat on<br />WhatsApp
-  </a>
+<a
+  href="https://wa.me/639991721099"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    inline-flex items-center justify-center
+    px-6 py-3
+    rounded-full
+    bg-green-600 text-white
+    font-semibold
+    leading-none
+    shadow-sm hover:shadow-md transition
+  "
+>
+  Chat on WhatsApp
+</a>
 </div>
 
   </div>
