@@ -16,11 +16,7 @@ export default function App() {
       <div className="max-w-[720px] mx-auto text-center">
         
         <div className="text-2xl md:text-3xl font-black tracking-tight leading-none">
-          GO CEBU
-        </div>
-
-        <div className="mt-1 text-xs md:text-sm tracking-widest text-gray-500 uppercase">
-          Car Rental & Tours
+          Go Cebu Car Rental & Tours
         </div>
 
       </div>
