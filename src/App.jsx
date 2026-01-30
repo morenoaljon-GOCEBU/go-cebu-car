@@ -48,7 +48,7 @@ export default function App() {
             src="/cebu-destinations.jpg"
             alt="Cebu destinations"
             className="w-full h-80 object-cover"
-          />
+          img/>
         </div>
       </main>
     </div>
