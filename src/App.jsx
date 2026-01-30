@@ -9,18 +9,29 @@ export default function App() {
 
         {/* Header */}
         <header className="border-b border-stone-200">
-          <div className="max-w-[1400px] mx-auto px-[20%] py-4 flex items-middle justify-around">
-            <h1 className="text-xl font-extrabold tracking-wide">GO CEBU  CAR RENTAL & TOURS</h1>
-            <a
-              href="https://wa.me/639991721099"
-              target="_blank"
-              rel="noreferrer"
-              className="px-4 py-2 rounded-full bg-green-600 text-white font-semibold shadow-sm hover:shadow-md transition"
-            >
-              Chat on WhatsApp
-            </a>
-          </div>
-        </header>
+  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center">
+    
+    {/* BRAND AREA – OCCUPIES YELLOW ZONE */}
+    <div className="flex-1 flex justify-center">
+      <h1 className="text-xl font-extrabold tracking-wide text-center">
+        GO CEBU CAR RENTAL & TOURS
+      </h1>
+    </div>
+
+    {/* CTA – PUSHED TO FAR RIGHT */}
+    <div className="ml-auto">
+      <a
+        href="https://wa.me/639991721099"
+        target="_blank"
+        rel="noreferrer"
+        className="px-5 py-2.5 rounded-full bg-green-600 text-white font-semibold shadow-sm hover:shadow-md transition"
+      >
+        Chat on WhatsApp
+      </a>
+    </div>
+
+  </div>
+</header>
 
         {/* Hero */}
         <main className="w-full">
