@@ -15,15 +15,17 @@ export default function App() {
     <div className="flex-1">
       <div className="max-w-[720px] mx-auto text-around">
         
-        <div className="text-3xl md:text-4xl font-black tracking-tight leading-none">
-          Go Cebu Car Rental & Tours
-        </div>
+        <div className="text-3xl md:text-4xl font-black tracking-tight leading-none text-yellow-400 
+            drop-shadow-[0_1px_0_rgba(0,0,0,0.9)]">
+  Go Cebu Car Rental & Tours
+</div>
+
 
       </div>
     </div>
 
     {/* CTA */}
-    <div className="pl-12 flex items-center justify-around">
+    <div className="mx-auto flex items-left justify-around">
       <a
         href="https://wa.me/639991721099"
         target="_blank"
