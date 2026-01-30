@@ -31,7 +31,7 @@ export default function App() {
   target="_blank"
   rel="noreferrer"
   className="
-    inline-flex items-center justify-center
+    mx-auto flex items-center justify-center
     px-6 py-3
     rounded-full
     bg-green-600 text-black
