@@ -81,6 +81,10 @@ export default function App() {
               </p>
 
               <div className="mt-8">
+                 {/* Pulsing Ring */}
+      <span className="absolute inset-0 rounded-full bg-yellow-200 opacity-50 animate-ping"></span>
+
+      {/* Button */}
                 <a
                   href="https://wa.me/639991721099"
                   target="_blank"
