@@ -19,38 +19,44 @@ export default function App() {
 </header>
 
       {/* Hero */}
-      <main className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
-        <div>
-          <h2 className="text-4xl md:text-5xl font-black leading-tight">
-            Explore Cebu.
-            <span className="block text-yellow-400">No stress.</span>
-          </h2>
+      <main className="w-full">
+  <div className="max-w-[1400px] mx-auto px-[10%] py-20 grid md:grid-cols-2 gap-12 items-center">
+    
+    {/* LEFT */}
+    <div>
+      <h2 className="text-4xl md:text-6xl font-black leading-tight">
+        Explore Cebu.
+        <span className="block text-yellow-400">No stress.</span>
+      </h2>
 
-          <p className="mt-4 text-lg text-gray-600">
-            Reliable cars. Honest pricing. Hassle-free rentals & tours.
-          </p>
+      <p className="mt-6 text-lg text-gray-600 max-w-xl">
+        Reliable cars. Honest pricing. Hassle-free rentals & tours.
+      </p>
 
-          <div className="mt-6">
-            <a
-              href="https://wa.me/639991721099"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block px-8 py-4 rounded-full bg-yellow-400 text-black font-bold shadow-lg hover:scale-105 transition"
-            >
-              Book via WhatsApp
-            </a>
-          </div>
-        </div>
+      <div className="mt-8">
+        <a
+          href="https://wa.me/639991721099"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block px-8 py-4 rounded-full bg-yellow-400 text-black font-bold hover:scale-105 transition"
+        >
+          Book via WhatsApp
+        </a>
+      </div>
+    </div>
 
-        {/* Image */}
-        <div className="rounded-3xl overflow-hidden shadow-xl">
-          <img
-            src="/cebu-destinations.png"
-            alt="Cebu destinations"
-            className="w-full h-80 object-cover"
-          img/>
-        </div>
-      </main>
+    {/* RIGHT */}
+    <div>
+      <img
+        src="/cebu-destinations.png"
+        alt="Cebu destinations"
+        className="w-full h-[420px] object-cover rounded-2xl"
+      />
+    </div>
+
+  </div>
+</main>
+
     </div>
   )
 }
