@@ -5,18 +5,18 @@ export default function App() {
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
       <header className="border-b">
-        <div className="max-w-6xl mx-auto p-4 flex items-center justify-between">
-          <h1 className="text-xl font-extrabold tracking-wide">GO CEBU</h1>
-          <a
-            href="https://wa.me/639991721099"
-            target="_blank"
-            rel="noreferrer"
-            className="px-4 py-2 rounded-full bg-green-600 text-white font-semibold"
-          >
-            Chat on WhatsApp
-          </a>
-        </div>
-      </header>
+  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center justify-between">
+    <h1 className="text-xl font-extrabold tracking-wide">GO CEBU</h1>
+    <a
+      href="https://wa.me/639991721099"
+      target="_blank"
+      rel="noreferrer"
+      className="px-4 py-2 rounded-full bg-green-600 text-white font-semibold"
+    >
+      Chat on WhatsApp
+    </a>
+  </div>
+</header>
 
       {/* Hero */}
       <main className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
