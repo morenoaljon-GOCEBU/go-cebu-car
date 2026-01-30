@@ -5,7 +5,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-gray-900 flex items-center justify-center py-[15vh]">
       
       {/* LUXURY EMBOSSED BOX */}
-      <div className="w-[70%] bg-stone-50 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] border border-stone-200">
+      <div className="w-[90%] bg-stone-50 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] border border-stone-200">
 
         {/* Header */}
         <header className="border-b border-stone-200">
