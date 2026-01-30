@@ -23,7 +23,7 @@ export default function App() {
     </div>
 
     {/* CTA */}
-    <div className="ml-auto">
+    <div className="ml-auto justify-around">
       <a
         href="https://wa.me/639991721099"
         target="_blank"
