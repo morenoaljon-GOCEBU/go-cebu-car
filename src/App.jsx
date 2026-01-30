@@ -32,7 +32,7 @@ export default function App() {
     {/* CTA – GREEN, CENTERED */}
     <div className="relative flex items-center">
       {/* Pulsing Ring */}
-      <span className="absolute inset-0 rounded-full bg-red-200 opacity-75 animate-ping"></span>
+      <span className="absolute inset-0 rounded-full bg-green-100 opacity-40 animate-ping"></span>
 
       {/* Button */}
      <a
