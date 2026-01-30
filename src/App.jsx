@@ -9,11 +9,11 @@ export default function App() {
 
         {/* Header */}
        <header className="border-b border-stone-200">
-  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center">
+  <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-around">
 
     {/* BRAND ZONE */}
     <div className="flex-1">
-      <div className="max-w-[720px] mx-auto text-center">
+      <div className="max-w-[720px] mx-auto text-around">
         
         <div className="text-2xl md:text-3xl font-black tracking-tight leading-none">
           Go Cebu Car Rental & Tours
