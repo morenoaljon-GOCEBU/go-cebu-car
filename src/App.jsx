@@ -26,14 +26,22 @@ export default function App() {
 
     {/* CTA */}
     <div className="mx-auto flex items-left justify-around">
-      <a
-        href="https://wa.me/639991721099"
-        target="_blank"
-        rel="noreferrer"
-        className="px-auto py-2.0 rounded-full bg-green-800 text-white font-semibold shadow-sm hover:shadow-md transition"
-      >
-        Chat on WhatsApp
-      </a>
+   <a
+  href="https://wa.me/639991721099"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    inline-flex items-center justify-center
+    px-6 py-3
+    rounded-full
+    bg-green-600 text-white
+    font-semibold
+    leading-none
+    shadow-sm hover:shadow-md transition
+  "
+>
+  Chat on WhatsApp
+</a>
     </div>
 
   </div>
