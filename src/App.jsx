@@ -12,8 +12,8 @@ export default function App() {
   <div className="max-w-[1400px] mx-auto px-[10%] py-4 flex items-center justify-between">
 
     {/* BRAND ZONE (CENTERED) */}
-    <div className="flex-1 flex justify-center">
-      <div className="text-center">
+    <div className="flex-1 flex justify-even">
+      <div className="text-aroun">
         <div
           className="
             text-4xl md:text-6xl
