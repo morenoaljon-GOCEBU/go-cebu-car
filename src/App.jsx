@@ -15,7 +15,7 @@ export default function App() {
     <div className="flex-1">
       <div className="max-w-[920px] mx-auto text-around">
         
-        <div className="text-4xl md:text-6xl font-black tracking-tight leading-none text-yellow-500 
+        <div className="text-4xl md:text-6xl font-black tracking-tight leading-none text-yellow-450 
             drop-shadow-[0_1px_0_rgba(0,0,0,0.9)]">
   Go Cebu Car Rental & Tours
 </div>
@@ -30,7 +30,7 @@ export default function App() {
         href="https://wa.me/639991721099"
         target="_blank"
         rel="noreferrer"
-        className="px-5 py-2.5 rounded-full bg-green-600 text-white font-semibold shadow-sm hover:shadow-md transition"
+        className="px-5 py-2.5 rounded-full bg-green-800 text-white font-semibold shadow-sm hover:shadow-md transition"
       >
         Chat on WhatsApp
       </a>
