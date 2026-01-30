@@ -35,18 +35,7 @@ export default function App() {
     target="_blank"
     rel="noreferrer"
     className="
-      /* Layout & Shape */
-      relative flex items-even justify-even rounded-full text-even
-      aspect-square shadow-lg hover:shadow-xl transition-all z-10
-      
-      /* Responsive Dimensions (Button grows/shrinks with browser) */
-      w-[clamp(120px,20vw,240px)] h-[clamp(120px,20vw,240px)]
-      
-      /* Visuals & Typography */
-      bg-green-600 text-black font-bold
-      text-[clamp(0.85rem,2vw,1.4rem)] 
-      leading-tight p-5
-      break-words text-balance
+     className="inline-block px-8 py-4 rounded-full bg-green-400 text-black font-bold shadow-md hover:shadow-lg hover:scale-105 transition"
     "
   >
     Chat on WhatsApp
