@@ -35,23 +35,30 @@ export default function App() {
       <span className="absolute inset-0 rounded-full bg-green-500 opacity-60 animate-ping"></span>
 
       {/* Button */}
-      <a
-        href="https://wa.me/639991721099"
-        target="_blank"
-        rel="noreferrer"
-        className="
-          relative z-10
-          inline-flex items-center justify-center
-          px-6 py-3
-          rounded-full
-          bg-green-600 text-white
-          font-semibold
-          leading-none
-          shadow-sm hover:shadow-md transition
-        "
-      >
-        Chat on WhatsApp
-      </a>
+     <a
+  href="https://wa.me/639991721099"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    relative z-10
+    inline-flex items-center justify-center
+
+    /* 👇 COPIED SIZE + FONT FROM YELLOW BUTTON */
+    px-8 py-4
+    rounded-full
+    font-bold
+    text-base
+    leading-none
+
+    /* 👇 COLOR ONLY (GREEN) */
+    bg-green-600 text-white
+
+    shadow-sm hover:shadow-md transition
+  "
+>
+  Chat on WhatsApp
+</a>
+
     </div>
 
   </div>
