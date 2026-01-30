@@ -45,7 +45,7 @@ export default function App() {
         {/* Image */}
         <div className="rounded-3xl overflow-hidden shadow-xl">
           <img
-            src="/cebu-destinations.jpg"
+            src="/cebu-destinations.jpg.png"
             alt="Cebu destinations"
             className="w-full h-80 object-cover"
           img/>
