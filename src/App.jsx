@@ -15,8 +15,8 @@ export default function App() {
     <div className="flex-1">
       <div className="max-w-[920px] mx-auto text-around">
         
-        <div className="text-4xl md:text-6xl font-black tracking-tight leading-none text-yellow-450 
-            drop-shadow-[0_1px_0_rgba(0,0,0,0.9)]">
+        <div className="text-4xl md:text-6xl font-yellow tracking-tight leading-none text-black 
+            drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">
   Go Cebu Car Rental & Tours
 </div>
 
