@@ -13,9 +13,9 @@ export default function App() {
 
     {/* BRAND ZONE */}
     <div className="flex-1">
-      <div className="max-w-[720px] mx-auto text-around">
+      <div className="max-w-[920px] mx-auto text-around">
         
-        <div className="text-3xl md:text-4xl font-black tracking-tight leading-none text-yellow-400 
+        <div className="text-4xl md:text-6xl font-black tracking-tight leading-none text-yellow-500 
             drop-shadow-[0_1px_0_rgba(0,0,0,0.9)]">
   Go Cebu Car Rental & Tours
 </div>
