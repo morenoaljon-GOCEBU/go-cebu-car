@@ -25,7 +25,7 @@ export default function App() {
     </div>
 
     {/* CTA */}
-<div class="relative flex items-center justify-center mx-auto w-fit">
+<div class="relative flex items-middle justify-around mx-auto w-fit">
   <!-- Pulsing Ring -->
   <span class="absolute inset-0 rounded-full bg-green-500 opacity-75 animate-ping"></span>
 
@@ -36,7 +36,7 @@ export default function App() {
   target="_blank"
   rel="noreferrer"
   className="
-    inline-flex items-center justify-center
+    inline-flex items-middle justify-around
     px-6 py-3
     rounded-full
     bg-green-600 text-white
